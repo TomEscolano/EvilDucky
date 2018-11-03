@@ -1,3 +1,4 @@
+REM Author: Tom ESCOLANO - www.tomescolano.fr || www.foxty.io
 DELAY 2000
 CONTROL ESCAPE
 DELAY 200

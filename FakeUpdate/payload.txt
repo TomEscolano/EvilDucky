@@ -1,3 +1,4 @@
+REM Author: Tom ESCOLANO - www.tomescolano.fr || www.foxty.io
 DELAY 2000
 GUI d
 DELAY 500
